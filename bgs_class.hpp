@@ -1,3 +1,7 @@
+// BSWrapper.hpp
+//   background subtractor wrapper because we need to use a consistence
+//   cv::BackgroundSubtractor to identify moving object.
+//   So we wrap the object in this class
 
 class BSWrapper {
   public:
